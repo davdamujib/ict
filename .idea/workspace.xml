@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="836e2d43-f7e6-4336-95a4-81ccbbafe20a" name="Changes" comment="add user management features with CRUD operations and necessary configurations">
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/ict/user/common/abstracts/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/com/ict/user/common/abstracts/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/ict/user/domain/dto/UserRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/com/ict/user/domain/dto/UserRequestDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/ict/user/domain/dto/UserResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/com/ict/user/domain/dto/UserResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/ict/user/domain/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/com/ict/user/domain/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/ict/user/domain/enums/Hobbies.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usergui/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/usergui/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usergui/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/usergui/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usergui/src/app/app.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/usergui/src/app/app.routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usergui/src/app/component/user/user.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/usergui/src/app/component/user/user.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usergui/src/app/component/user/user.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/usergui/src/app/component/user/user.component.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_C:/Driv-D/Quba classes/practice/ict" value="3FWYjLJlomJnmkJB1gNVO1VTyka" />
+    </persistenceIdMap>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/usergui" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;qubadevteam&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/davdamujib/ict.git&quot;,
+    &quot;accountId&quot;: &quot;e304cdcf-ecf0-4743-bbcc-4b46f0d2a2b0&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="3FWYjLJlomJnmkJB1gNVO1VTyka" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Driv-D/Quba classes/practice/ict",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="ict" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="ict" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="836e2d43-f7e6-4336-95a4-81ccbbafe20a" name="Changes" comment="" />
+      <created>1782192425780</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1782192425780</updated>
+    </task>
+    <task id="LOCAL-00001" summary="add user management features with CRUD operations and necessary configurations">
+      <option name="closed" value="true" />
+      <created>1782192664204</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1782192664204</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add user management features with CRUD operations and necessary configurations">
+      <option name="closed" value="true" />
+      <created>1782193047771</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1782193047771</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add user management features with CRUD operations and necessary configurations">
+      <option name="closed" value="true" />
+      <created>1782193458858</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1782193458866</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/usergui" />
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="add user management features with CRUD operations and necessary configurations" />
+    <option name="LAST_COMMIT_MESSAGE" value="add user management features with CRUD operations and necessary configurations" />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
+  </component>
+</project>

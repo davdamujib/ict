@@ -1,0 +1,36 @@
+<h2>User List</h2>
+
+<table border="1">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Password</th>
+        <th>Age</th>
+        <th>Date Of Birth</th>
+        <th>Gender</th>
+        <th>Hobbies</th>
+        <th>Country</th>
+        <th>Address</th>
+        <th>Action</th>
+    </tr>
+
+    @for (u of users; track u.id) {
+    <tr>
+        <td>{{u.id}}</td>
+        <td>{{u.name}}</td>
+        <td>{{u.email}}</td>
+        <td>{{u.password}}</td>
+        <td>{{u.age}}</td>
+        <td>{{u.dob}}</td>
+        <td>{{u.gender}}</td>
+        <td>{{u.hobbies}}</td>
+        <td>{{u.country}}</td>
+        <td>{{u.address}}</td>
+        <td>
+            <button (click)="edit(u.id)">Edit</button>
+            <button (click)="delete(u.id)">Delete</button>
+        </td>
+    </tr>
+    }
+</table>

@@ -3,7 +3,6 @@ package com.ict.user.domain.dto;
 import com.ict.user.domain.entity.User;
 import com.ict.user.domain.enums.Country;
 import com.ict.user.domain.enums.Gender;
-import com.ict.user.domain.enums.Hobbies;
 import jakarta.validation.constraints.*;
 import lombok.*;
 
@@ -42,7 +41,7 @@ public class UserRequestDto {
     @NotNull(message = "Gender is required")
     private Gender gender;
 
-    @NotNull(message = "Hobbies is required")
+    @NotBlank(message = "Hobbies is required")
     private String hobbies;
 
     @NotNull(message = "Country is required")

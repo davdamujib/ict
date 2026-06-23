@@ -3,7 +3,6 @@ package com.ict.user.domain.entity;
 import com.ict.user.common.abstracts.BaseEntity;
 import com.ict.user.domain.enums.Country;
 import com.ict.user.domain.enums.Gender;
-import com.ict.user.domain.enums.Hobbies;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -42,6 +41,7 @@ public class User extends BaseEntity {
     @Enumerated(EnumType.STRING)
     private Gender gender;
 
+    @Column(nullable = false)
     private String hobbies;
 
     @Enumerated(EnumType.STRING)

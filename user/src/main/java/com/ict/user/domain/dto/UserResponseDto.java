@@ -3,8 +3,6 @@ package com.ict.user.domain.dto;
 import com.ict.user.domain.entity.User;
 import com.ict.user.domain.enums.Country;
 import com.ict.user.domain.enums.Gender;
-import com.ict.user.domain.enums.Hobbies;
-import jakarta.validation.constraints.*;
 import lombok.*;
 
 import java.time.LocalDate;
