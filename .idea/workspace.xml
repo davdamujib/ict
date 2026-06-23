@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="836e2d43-f7e6-4336-95a4-81ccbbafe20a" name="Changes" comment="add user management features with CRUD operations and necessary configurations">
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/ict/user/common/abstracts/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/com/ict/user/common/abstracts/BaseEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/ict/user/domain/dto/UserRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/com/ict/user/domain/dto/UserRequestDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/ict/user/domain/dto/UserResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/com/ict/user/domain/dto/UserResponseDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/ict/user/domain/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/com/ict/user/domain/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/ict/user/domain/enums/Hobbies.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/usergui/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/usergui/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usergui/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/usergui/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usergui/src/app/app.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/usergui/src/app/app.routes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usergui/src/app/component/user/user.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/usergui/src/app/component/user/user.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usergui/src/app/component/user/user.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/usergui/src/app/component/user/user.component.ts" afterDir="false" />
-    </list>
+    <list default="true" id="836e2d43-f7e6-4336-95a4-81ccbbafe20a" name="Changes" comment="refactor: implement user management with CRUD operations and routing" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,16 +45,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Driv-D/Quba classes/practice/ict",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Driv-D/Quba classes/practice/ict&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="ict" />
@@ -114,7 +103,15 @@
       <option name="project" value="LOCAL" />
       <updated>1782193458866</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="refactor: implement user management with CRUD operations and routing">
+      <option name="closed" value="true" />
+      <created>1782208234525</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1782208234525</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -123,7 +120,8 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="add user management features with CRUD operations and necessary configurations" />
-    <option name="LAST_COMMIT_MESSAGE" value="add user management features with CRUD operations and necessary configurations" />
+    <MESSAGE value="refactor: implement user management with CRUD operations and routing" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: implement user management with CRUD operations and routing" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

@@ -6,6 +6,7 @@ import com.ict.user.domain.dto.UserResponseDto;
 import com.ict.user.service.UserService;
 import jakarta.validation.Valid;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.client.RestTemplate;
 
 @RestController
 @RequestMapping("/api/v1/user")
@@ -42,4 +43,5 @@ public class UserController {
     public ResponseModel deleteUser(@PathVariable Long id){
         return userService.deleteUser(id);
     }
+
 }
